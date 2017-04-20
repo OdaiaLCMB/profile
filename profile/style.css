@@ -1,0 +1,121 @@
+/* Here goes your CSS */
+body {
+  background: #EBEBEB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #747187;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 22px;
+  color: #3622aa;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+p, li {
+  font-size: 14px;
+  font-family: 'Jaldi', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #7c6dd6;
+}
+
+a:hover {
+  color: #3622aa;
+}
+
+.transparent:hover {
+  opacity: 0.5;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.in-line {
+  padding-left: 0;
+}
+
+.in-line li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#img-round {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+  border-radius: 60px;
+  box-shadow: 1px 1px 0.5px #c6c0ed;
+}
+
+.btn-blue {
+  background-color: #3622aa;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #7c6dd6;
+  color: white;
+  opacity: 0.5;
+}
+
+.position td tr img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+#hobbies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+  margin-left: 50px;
+  bottom: auto;
+}
+
+#hobbies td {
+  padding: 10px;
+}
+
+.border-blue {
+  border-radius: 2px;
+  border-color: #7c6dd6;
+  border: 1px solid;
+  box-shadow: 1px 1px 0.5px #c6c0ed;
+}
+
+.back-img {
+  background-image: relative(/images/plage.jpg);
+}
